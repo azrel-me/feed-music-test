@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray;
+}
+
+video {
+  object-fit: cover;
+}
+
+.part {
+  opacity: 0;
+}
+
+.part:first-child {
+  opacity: 1;
+}
